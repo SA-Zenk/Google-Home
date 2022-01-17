@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+	padding: 22px;
+
+	&__register {
+		color: white;
+		text-decoration: none;
+	}
+
+	&__imagenes {
+		color: white;
+		text-decoration: none;
+	}
+
+	&__svg-app {
+		height: 16px;
+		width: 16px;
+	}
+
+	&__perfil {
+		height: 35px;
+		width: 35px;
+		color: white;
+		border-radius: 50%;
+		cursor: pointer;
+	}
+}

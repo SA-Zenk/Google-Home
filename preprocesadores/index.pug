@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Nueva Pestaña
+		link(rel="stylesheet", href="style.css")
+	body 
+		.app
+			.header 
+				a.header__register(href="#") Gmail 
+				a.header__imagenes(href="#") Imagenes
+				img.header__svg-app(src="Icons/Icon_app.svg", alt="")
+				img.header__perfil(src="image/perfil.jpg", alt="")
+			.main
+				.main__google
+					img.main__logo(src="Icons/google_logo.svg", alt="")
+				.main__search-bar
+					.main__search 
+						img.main__lupa(src="Icons/Icon_search_lupa.svg", alt="")
+						p.main__write-url Buscar en Google o escribir una URL
+					.main__microphone
+						img.main__svg-microphone(src="Icons/Icon_search_Microfhone.svg", alt="")
