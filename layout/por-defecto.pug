@@ -1,14 +1,15 @@
 extends ../template/por-defecto
 
-block cabecera
-	.header 
-		a.header__register(href="#") Gmail 
-		a.header__imagenes(href="#") Imagenes
-		img.header__svg-app(src="Icons/Icon_app.svg", alt="")
-		img.header__perfil(src="image/perfil.jpg", alt="")
+block body 
+	block cabecera
+		.header 
+			a.header__register(href="#") Gmail 
+			a.header__imagenes(href="#") Imagenes
+			img.header__svg-app(src="Icons/Icon_App.svg", alt="")
+			img.header__perfil(src="image/perfil.jpg", alt="")
 
-block main 
+	block main 
 
-block footer
-	.footer 
-		p.footer__hola Hola
+	block footer
+		.footer 
+			p.footer__hola Hola

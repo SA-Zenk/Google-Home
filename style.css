@@ -158,9 +158,15 @@ body {
   color: white;
   text-decoration: none;
 }
+.header__register:hover {
+  text-decoration: underline;
+}
 .header__imagenes {
   color: white;
   text-decoration: none;
+}
+.header__imagenes:hover {
+  text-decoration: underline;
 }
 .header__svg-app {
   height: 16px;
@@ -201,6 +207,14 @@ body {
   align-items: center;
   gap: 13px;
   padding-left: 16px;
+}
+.main__write-url {
+  border: none;
+  border: none;
+  font-size: 14px;
+  height: 100%;
+  width: 261px;
+  outline: none;
 }
 .main__microphone {
   padding-right: 13px;

@@ -8,11 +8,19 @@
 	&__register {
 		color: white;
 		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	&__imagenes {
 		color: white;
 		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	&__svg-app {
