@@ -220,3 +220,23 @@ body {
   padding-right: 13px;
   cursor: pointer;
 }
+.main__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.main__quick-access {
+  display: flex;
+  background-color: #f1f3f4;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+}
+.main__icon {
+  height: 24px;
+  width: 24px;
+}

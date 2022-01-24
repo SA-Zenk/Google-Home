@@ -42,4 +42,31 @@
 		padding-right: 13px;
 		cursor: pointer;
 	}
+
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 32px;
+	}
+
+	&__quick-access {
+		display: flex;
+		background-color: rgba(241, 243, 244, 1);
+		border-radius: 50%;
+		align-items: center;
+		justify-content: center;
+		height: 48px;
+		width: 48px;
+	}
+
+	&__icon {
+		height: 24px;
+		width: 24px;
+	}
+
+
+
+
 }
